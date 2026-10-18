@@ -1,5 +1,5 @@
 # Fly.io: run `fly launch --no-deploy --copy-config`, then set secrets and `fly deploy`.
-app = "CHANGE-ME-naija-world"
+app = "naija-world-levi"
 primary_region = "jnb"
 [build]
 [env]
