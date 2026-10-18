@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: naija-world
+    runtime: docker
+    plan: starter
+    numInstances: 1
+    envVars:
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: ALLOW_GUESTS
+        value: "0"
